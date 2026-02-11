@@ -6,14 +6,8 @@ public class Programmer extends Person {
         super(name, designation);
     }
     @Override
-    public String toString() {
-        return "Programmer" + "companyName=" + companyName ;
-    }
-    public String coding(){
-        return "coding";
-    }
-    public String playGitar(){
-        return "play gitar";
+    public void walk() {
+        System.out.println("Walking");
     }
 }
 

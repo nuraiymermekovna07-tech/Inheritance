@@ -5,12 +5,9 @@ public class Dancer extends Person{
         this.groupName = name;
     }
 
-    @Override
-    public String toString(){
-        return "Dancer{" + "groupName=" + groupName + '}' + super.toString();
+       @Override
+        public void walk(){
+            System.out.println("Walking by dancing");
+        }
+    }
 
-    }
-    public String dancing(){
-        return "dancing";
-    }
-}

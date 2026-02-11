@@ -5,13 +5,7 @@ public class Singer extends Person {
         this.bandName = bandName;
     }
     @Override
-    public String toString(){
-        return "Singer{" + "bandName=" + bandName + '}';
-    }
-    public String singing(){
-        return "singing";
-    }
-    public String playgitar(){
-        return "playgitar";
+    public void walk() {
+        System.out.println("Walking by singing");
     }
 }

@@ -12,17 +12,11 @@ public class Person {
     public void setName(String name) {
         this.name = name;
     }
-    public String learn(){
-        return designation;
-    }
-    public String walk(){
-        return designation;
-    }
-    public String eat(){
-        return designation;
+    public void walk(){
+        System.out.println("Walker");
     }
     @Override
     public String toString() {
-        return  "Person{" + "name=" + name + ", designation=" + designation + learn() + walk() + eat() + super.toString();
+        return  "Person{" + "name=" + name + ", designation=" + designation ;
     }
 }
