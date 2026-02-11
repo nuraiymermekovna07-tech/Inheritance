@@ -1,18 +1,22 @@
+import org.w3c.dom.ls.LSOutput;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println(" ------ Peson Info ---------");
-        Person person = new Person("Nuraiym","Programmer");
-        person.walk();
-        System.out.println(person);
+        Person[] people = { new Dancer("Daniel","Dancer","f5"),
+                          new Singer("Atai","Singer","u8"),
+                          new Programmer("Aidana","Programmer") };
+            for(Person person : people) {
+                person.walk();
+            }
+        System.out.println(Arrays.toString(people));
 
-        System.out.println(" --------- Dancer Info ---------");
-        Dancer dancer = new Dancer("Aizat","Dancer","F5");
-        dancer.walk();
-        System.out.println(dancer);
 
-        System.out.println(" --------- Singer Info ---------");
-        Singer singer = new Singer("Aidin","Dancer","Atlant");
-        singer.walk();
-        System.out.println(singer);
+
+
+
     }
 }

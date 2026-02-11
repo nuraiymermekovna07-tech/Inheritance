@@ -4,10 +4,9 @@ public class Dancer extends Person{
         super(name, designation);
         this.groupName = name;
     }
-
        @Override
-        public void walk(){
-            System.out.println("Walking by dancing");
+        public  void walk(){
+            System.out.println("Dancer walking by dancing");
         }
     }
 

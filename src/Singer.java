@@ -6,6 +6,6 @@ public class Singer extends Person {
     }
     @Override
     public void walk() {
-        System.out.println("Walking by singing");
+        System.out.println("Singer walking by singing");
     }
 }
